@@ -20,7 +20,7 @@ img{
     overflow: hidden;
 }
 .slider-line {
-    width: 1024px;
+    /* width: 1024px; */
     display: flex;
     position: relative;
     left: 0;

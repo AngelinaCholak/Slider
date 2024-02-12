@@ -20,7 +20,7 @@ window.addEventListener("resize", init);
 document.querySelector(".slider-next").addEventListener("click", function () {
   count++;
   if (count >= images.length) {
-    count = 0; 
+    count = 0;
   }
   rollSlider();
 });
@@ -28,7 +28,7 @@ document.querySelector(".slider-next").addEventListener("click", function () {
 document.querySelector(".slider-prev").addEventListener("click", function () {
   count--;
   if (count < 0) {
-    count = images.length - 1; 
+    count = images.length - 1;
   }
   rollSlider();
 });
@@ -48,16 +48,16 @@ function handleTouchStart(event) {
 function handleTouchMove(event) {
   const moveX = event.touches[0].clientX;
   const diffX = startX - moveX;
-  if (Math.abs(diffX) > 50) {
+  if (Math.abs(diffX) > 100) {
     if (diffX > 0) {
       count++;
       if (count >= images.length) {
-        count = 0; 
+        count = 0;
       }
     } else {
       count--;
       if (count < 0) {
-        count = images.length - 1; 
+        count = images.length - 1;
       }
     }
     rollSlider();
