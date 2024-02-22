@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+.header{
+   background-image:url(../img/body3.png) ;
+   background-size: cover;
+}
+.header-container{
+   height: 70px;
+   
+}
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/body3.png);
+    background-size: cover;
+ 
+}
+.container-column {
+  padding-bottom: 60px;
+  
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.container-icon{
+    display: flex;
+    justify-content: center;
+}
+.column {
+    width: 400px; 
+    height: 350px;
+    border: 5px solid #d8d5d5;
+    margin: 10px;
+    border-radius: 50px;
+    box-sizing: border-box; 
+    background: linear-gradient(transparent, rgba(241, 232, 199, 0.879)),
+                url(../img/body3.png);
+    padding-left: 10px;   
+    padding-right: 10px;
+     background-size: cover;
+}
+.column-description{
+    width: 400px; 
+    height: 350px;
+    border: 5px solid #d8d5d5;
+    margin: 10px;
+    border-radius: 50px;
+    box-sizing: border-box; 
+    background: linear-gradient(transparent, rgba(241, 232, 199, 0.879)),
+                url(../img/body3.png);
+    padding-left: 10px;   
+    padding-right: 10px;  
+     background-size: cover;      
+ 
+}
+.button{
+    border: none; 
+    background: none; 
+    padding: 0; 
+    margin: 0;
+    cursor: pointer;
+}
+@keyframes arrowAnimation {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-5px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+.button .icon {
+    animation: arrowAnimation 2s infinite; 
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #36071a55, #03010a88);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.title-main {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin: 0;
+  padding-top: 10px;
+ 
+}
+.title-main-description{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin: 0;
+  padding-top: 30px;
+}
+.title-text {
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+}
+.text{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0;
+    
+ 
+}
+.text-description {
+    margin: 0;
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
